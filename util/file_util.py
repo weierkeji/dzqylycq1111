@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 from typing import List
+from common.log import default_logger as logger
 
 def read_last_n_lines(filepath: str, n_lines: int) -> List[bytearray]:
     try:
