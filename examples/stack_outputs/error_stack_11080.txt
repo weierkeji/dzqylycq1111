@@ -1,0 +1,30 @@
+IP:PID = 198.18.0.1:11080
+Timestamp = 1763037375.4687831
+======================================================================
+Process 11080: "C:\Users\chenq\.conda\envs\pytorch_env\python.exe" "-c" "from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=25456, pipe_handle=440)" "--multiprocessing-fork"
+Python v3.9.19 (C:\Users\chenq\.conda\envs\pytorch_env\python.exe)
+
+Thread 344 (idle): "MainThread"
+    _wait_for_tstate_lock (threading.py:1080)
+    join (threading.py:1064)
+    _communicate (subprocess.py:1524)
+    communicate (subprocess.py:1134)
+    run (subprocess.py:507)
+    run_pyspy (pyspy.py:31)
+    demo_error_capture (pyspy.py:58)
+    worker_function (multiprocess_pyspy_dump.py:75)
+    run (multiprocessing\process.py:108)
+    _bootstrap (multiprocessing\process.py:315)
+    _main (multiprocessing\spawn.py:129)
+    spawn_main (multiprocessing\spawn.py:116)
+    <module> (<string>:1)
+Thread 38644 (idle): "Thread-1"
+    _readerthread (subprocess.py:1495)
+    run (threading.py:917)
+    _bootstrap_inner (threading.py:980)
+    _bootstrap (threading.py:937)
+Thread 17312 (idle): "Thread-2"
+    _readerthread (subprocess.py:1495)
+    run (threading.py:917)
+    _bootstrap_inner (threading.py:980)
+    _bootstrap (threading.py:937)
